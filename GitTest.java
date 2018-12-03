@@ -4,7 +4,6 @@
 //Rohan
 
 
-
 public class GitTest{
 
 		private String name;
@@ -15,5 +14,9 @@ public class GitTest{
 
 		public String toString(){
 			return name;
+		}
+
+		public void setString(String name){
+			this.name = name;
 		}
 }
